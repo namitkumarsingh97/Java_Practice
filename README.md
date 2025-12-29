@@ -1,6 +1,6 @@
 # Java Basics – Key Learnings & Rules (Quick Notes)
 
-These notes summarize **all the important Java concepts** you asked about. Keep this as a checklist whenever you write Java code 👇
+These notes summarize **all the important Java concepts** that I learnt on the daily basis while solving problems. Keep this as a checklist whenever you write Java code 👇
 
 ---
 
