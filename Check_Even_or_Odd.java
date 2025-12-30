@@ -9,8 +9,7 @@
 // Input: n = 44
 // Output: true
 // Explanation: 44 % 2 = 0, so 44 is even
-
-package Java_Practice;
+package src;
 
 import java.util.Scanner;
 
