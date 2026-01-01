@@ -30,7 +30,7 @@ This repository documents my **daily Java practice**, focusing on **logic buildi
 | #   | Problem                           | Link                                                                                                                                         |
 | --- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1️⃣ | Check Even or Odd                 | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Check_Even_Or_Odd.java) |
-| 2️⃣ | Multiplication Table              | ⏳ Coming Soon                                                                                                                                |
+| 2️⃣ | Multiplication Table              | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Multiplication_Table.java) |
 | 3️⃣ | Sum of Natural Numbers            | ⏳ Coming Soon                                                                                                                                |
 | 4️⃣ | Sum of Squares of Natural Numbers | ⏳ Coming Soon                                                                                                                                |
 | 5️⃣ | Swap Two Numbers                  | ⏳ Coming Soon                                                                                                                                |
