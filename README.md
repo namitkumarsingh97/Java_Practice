@@ -11,32 +11,32 @@ This repository documents my **daily Java practice**, focusing on **logic buildi
 
 ### 🧠 How to Approach Logic Problems
 
-* ✅ Understand the problem statement clearly
-* 🧪 Generate your own input/output examples
-* 🔍 Observe patterns and edge cases
-* 🪜 Start with a basic solution, then optimize
+- ✅ Understand the problem statement clearly
+- 🧪 Generate your own input/output examples
+- 🔍 Observe patterns and edge cases
+- 🪜 Start with a basic solution, then optimize
 
 ---
 
 ### 📚 Concepts
 
-* **Maths for Computer Science**
+- **Maths for Computer Science**
   🔗 [https://www.geeksforgeeks.org/computer-science-fundamentals/mathematics-for-computer-science/](https://www.geeksforgeeks.org/computer-science-fundamentals/mathematics-for-computer-science/)
 
 ---
 
 ### 🧩 Basic Problems
 
-| #   | Problem                           | Link                                                                                                                                         |
-| --- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1️⃣ | Check Even or Odd                 | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Check_Even_Or_Odd.java) |
-| 2️⃣ | Multiplication Table              | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Multiplication_Table.java) |
-| 3️⃣ | Sum of Natural Numbers            | ⏳ Coming Soon                                                                                                                                |
-| 4️⃣ | Sum of Squares of Natural Numbers | ⏳ Coming Soon                                                                                                                                |
-| 5️⃣ | Swap Two Numbers                  | ⏳ Coming Soon                                                                                                                                |
-| 6️⃣ | Closest Number                    | ⏳ Coming Soon                                                                                                                                |
-| 7️⃣ | Dice Problem                      | ⏳ Coming Soon                                                                                                                                |
-| 8️⃣ | Nth Term of AP                    | ⏳ Coming Soon                                                                                                                                |
+| #   | Problem                           | Link                                                                                                                                            |
+| --- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1️⃣  | Check Even or Odd                 | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Check_Even_Or_Odd.java)    |
+| 2️⃣  | Multiplication Table              | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Multiplication_Table.java) |
+| 3️⃣  | Sum of Natural Numbers            | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Sum_Of_Naturals.java)      |
+| 4️⃣  | Sum of Squares of Natural Numbers | ⏳ Coming Soon                                                                                                                                  |
+| 5️⃣  | Swap Two Numbers                  | ⏳ Coming Soon                                                                                                                                  |
+| 6️⃣  | Closest Number                    | ⏳ Coming Soon                                                                                                                                  |
+| 7️⃣  | Dice Problem                      | ⏳ Coming Soon                                                                                                                                  |
+| 8️⃣  | Nth Term of AP                    | ⏳ Coming Soon                                                                                                                                  |
 
 > 📝 Links will be added as I solve problems daily.
 
@@ -44,10 +44,10 @@ This repository documents my **daily Java practice**, focusing on **logic buildi
 
 ### 🔁 Daily Practice Philosophy
 
-* One problem every day
-* Logic first, optimization later
-* Separate methods for logic, `main()` only for input/output
-* Commit daily with learnings
+- One problem every day
+- Logic first, optimization later
+- Separate methods for logic, `main()` only for input/output
+- Commit daily with learnings
 
 ---
 
@@ -93,14 +93,14 @@ package introduction;
 
 ### What it does:
 
-* Groups related classes
-* Matches folder structure
-* Avoids name conflicts
+- Groups related classes
+- Matches folder structure
+- Avoids name conflicts
 
 ### When needed:
 
-* ✅ Real projects / IDEs
-* ❌ Online judges (often skipped)
+- ✅ Real projects / IDEs
+- ❌ Online judges (often skipped)
 
 ---
 
@@ -112,21 +112,21 @@ import java.util.Scanner;
 
 ### Why needed:
 
-* To use classes **outside `java.lang`**
+- To use classes **outside `java.lang`**
 
 ### `java.lang` is auto-imported
 
 So these need **NO import**:
 
-* `System`
-* `String`
-* `Math`
+- `System`
+- `String`
+- `Math`
 
 ### These DO need import:
 
-* `Scanner`
-* `ArrayList`
-* `HashMap`
+- `Scanner`
+- `ArrayList`
+- `HashMap`
 
 ---
 
@@ -148,8 +148,8 @@ protected class Main { } // ❌ not allowed
 
 ### Rules:
 
-* Top-level class can be **public or default only**
-* If class is `public`, file name **must match class name**
+- Top-level class can be **public or default only**
+- If class is `public`, file name **must match class name**
 
 ---
 
@@ -161,9 +161,9 @@ public static void main(String[] args)
 
 ### Why:
 
-* `public` → JVM must access it
-* `static` → JVM calls it without object
-* `void` → no return expected
+- `public` → JVM must access it
+- `static` → JVM calls it without object
+- `void` → no return expected
 
 👉 **Execution always starts from `main()`**
 
@@ -183,9 +183,9 @@ public static boolean evenOdd(int n) {
 
 ### Rules:
 
-* Must specify return type
-* Must specify parameter types
-* Use `return`, not `print`
+- Must specify return type
+- Must specify parameter types
+- Use `return`, not `print`
 
 ---
 
@@ -205,8 +205,8 @@ return true;
 
 ### Rule:
 
-* **Methods return values**
-* `main()` prints values
+- **Methods return values**
+- `main()` prints values
 
 ---
 
@@ -227,13 +227,13 @@ if (n % 2 == 0) // correct
 
 ## 9️⃣ static Keyword (Basic Understanding)
 
-* `static` members belong to **class**
-* Can be used without object
+- `static` members belong to **class**
+- Can be used without object
 
 ### main() is static, so:
 
-* Methods it calls should be static
-* Variables used should be static OR local
+- Methods it calls should be static
+- Variables used should be static OR local
 
 ---
 
@@ -246,8 +246,8 @@ Scanner sc = new Scanner(System.in);
 int n = sc.nextInt();
 ```
 
-* `Scanner` must be imported
-* Can be inside `main()` or static at class level
+- `Scanner` must be imported
+- Can be inside `main()` or static at class level
 
 ---
 
@@ -265,11 +265,10 @@ int n = sc.nextInt();
 
 ## 1️⃣2️⃣ Mental Model to Remember
 
-> **main() = manager**
-> **methods = workers**
+> **main() = manager** > **methods = workers**
 
-* main handles input/output
-* methods handle logic
+- main handles input/output
+- methods handle logic
 
 ---
 
@@ -288,8 +287,66 @@ int n = sc.nextInt();
 📌 These rules cover **90% of beginner Java mistakes**.
 Once these are solid, Java becomes smooth.
 
-➡️ Next goals:
+---
 
-* Data Structures & Algorithms
-* OOP concepts
-* Real-world Java projects
+## 🔁 New Learning: Method Return Types (Sum of Natural Numbers Problem)
+
+### ❌ Common Mistake Encountered
+
+```java
+public static void sum(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum = sum + i;
+    }
+    return sum; // ❌ invalid for void method
+}
+```
+
+### ❗ Why This Failed
+
+- Method declared as `void` means **no value can be returned**
+- Trying to use `return sum;` causes a compilation error
+- Calling `System.out.println(sum(5))` fails because `sum()` returns nothing
+
+---
+
+### ✅ Correct Approach
+
+```java
+public static int sum(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum = sum + i;
+    }
+    return sum;
+}
+```
+
+```java
+System.out.println(sum(5)); // Output: 15
+```
+
+---
+
+### 🧠 Key Rule to Remember
+
+> **If a method returns a value, its return type must NOT be `void`.**
+
+| Method Type            | Can return value? |
+| ---------------------- | ----------------- |
+| `void`                 | ❌ No             |
+| `int`, `boolean`, etc. | ✅ Yes            |
+
+---
+
+### 💡 Optional Optimization (Math Formula)
+
+```java
+return n * (n + 1) / 2;
+```
+
+- Avoids loop
+- Faster and interview-friendly
+
+---
