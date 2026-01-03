@@ -1,4 +1,4 @@
-// Given a number n, we need to print its table.
+// Problem - Given a number n, we need to print its table.
 
 package com.namit.practice;
 
