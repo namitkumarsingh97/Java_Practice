@@ -31,8 +31,8 @@ This repository documents my **daily Java practice**, focusing on **logic buildi
 | --- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1️⃣  | Check Even or Odd                 | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Check_Even_Or_Odd.java)    |
 | 2️⃣  | Multiplication Table              | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Multiplication_Table.java) |
-| 3️⃣  | Sum of Natural Numbers            | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Sum_Of_Naturals.java)      |
-| 4️⃣  | Sum of Squares of Natural Numbers | ⏳ Coming Soon                                                                                                                                  |
+| 3️⃣  | Sum of Natural Numbers            | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Sum_Of_Naturals.java) |
+| 4️⃣  | Sum of Squares of Natural Numbers | 🔗 [View Code](https://github.com/namitkumarsingh97/Java_Practice/blob/main/Daily_DSA_Problem/src/com/namit/practice/Sum_of_Squares_of_Naturals.java) |
 | 5️⃣  | Swap Two Numbers                  | ⏳ Coming Soon                                                                                                                                  |
 | 6️⃣  | Closest Number                    | ⏳ Coming Soon                                                                                                                                  |
 | 7️⃣  | Dice Problem                      | ⏳ Coming Soon                                                                                                                                  |
